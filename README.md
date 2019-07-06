@@ -10,6 +10,7 @@ Nor this language is made for people to actually program in it or anything else,
 There is no binary for this since it doesn't use many external libraries or anything
 For Windows simply having Mingw on your system and running ``mingw32-make`` in the directory of the Makefile will do it and you will have the binary
 For linux you will have to install the editline library, i don't know what package manager you are using so just search it up.
+Then Replace the normal MakeFile with the simply named LinuxMakefile and proceed with the command ``make`` and kaboom you have a binary
 
 ### Using The Language
 LFP Doesn't Compile at all, it all runs inside a REPL (Read Eval Print Loop), tho you can load external files for including libraries and such.
